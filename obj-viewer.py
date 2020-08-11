@@ -866,7 +866,7 @@ class MainFrame(tk.Frame):
         self.cgram_label = ttk.Label(self.frame_frame_controls, text="CGRAM Offset")
         self.cgram_label.grid(row=i, column=0, padx=3, pady=3, sticky=tk.W)
         self.cgram_num = ttk.Spinbox(self.frame_frame_controls,
-                                     from_=0, to=128,
+                                     from_=0, to=256,
                                      increment=16,
                                      width=8,
                                      wrap=1,
